@@ -1,0 +1,37 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+       Scanner input=new Scanner(System.in);
+       System.out.println("Enter the previous reading:");
+       double a=input.nextDouble();
+       System.out.println("Enter the previous reading:");
+       double b=input.nextDouble();
+       double c=a-b;
+       double  z=c*(1.50);
+       System.out.println("you have used"+c+"unit so you have paid Rs."+z);
+    }
+}
+2.
+import java.util.Scanner; 
+public class day2{
+    public static void main(String[]args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter the purchase price of the labtop:");
+        float a=input .nextFloat();
+        System.out.println("Enter percentage of tax:");
+        float b=input.nextFloat();
+        float c=(a*b)+a;
+        System.out.println("Total price of labtop:"+c);
+
+    }
+}
+public class day2{
+    public static void main(String[]args){
+
+        
+        char a='1';
+        System.out.println((int)a);
+
+
+    }
+}

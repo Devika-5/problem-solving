@@ -1,0 +1,177 @@
+1.
+public class MyClass {
+    public static void main(String args[]) {
+      float x=20.5f;
+      float y=30.8f;
+      float z=x*y;
+
+      System.out.println("Product of x*y = " + z);
+    }
+}
+2.
+public class Sum {
+    public static void main(String args[]) {
+      int firstnumber=25;
+      int secondnumber=36;
+      int x=firstnumber+secondnumber;
+      System.out.println("Sum = " + x);
+    }
+}
+3.
+public class Swapping {
+    public static void main(String args[]) {
+      int firstnumber=10;
+      int secondnumber=50;
+      int thirdnumber=60;
+      int x= firstnumber;
+      int y=secondnumber;
+      int z= thirdnumber;
+      System.out.println("Before Swapping-- " +   "\n"+"x="+x+ "\n"+"y="+ y+"\n"+"z="+z);
+      int h=x;
+      x=y;
+      y=z;
+      z=h;
+      System.out.println("After Swapping-- " +   "\n"+"x="+x+ "\n"+"y="+ y+"\n"+"z="+z);
+    }
+}
+4.
+import java.util.Scanner;
+public class main {
+    public static void main(String args[]) {
+     int length;
+     int width;
+     Scanner Input=new Scanner(System.in);
+     System.out.print("Enter length:");
+     length=Input.nextInt();
+     System.out.print("Enter width:");
+       width=Input.nextInt();
+       System.out.println("Area:"+(width*length));
+        System.out.println("Perimeter:"+(2*(length+width)));
+    }
+    
+}
+5.
+import java .util.Scanner;
+class reverse{
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter the distance in kilometers:");
+        int a=input.nextInt();
+        float meter=a*1000;
+        System.out.println(" distance in meters:"+meter);
+        float feet=a*3281;
+          System.out.println(" distance in feet:"+feet);
+          float centimeter=a*100000;
+          System.out.println("distance in centimeter:"+centimeter);
+          float inches=a*39370.1f;
+          System.out.println("distance in inches:"+inches);
+    }
+}
+decion making:
+1.
+import java.util.Scanner;
+public class player{
+    public static void main(String[]args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter the Age:");
+        int age=input.nextInt();
+        if(age>=15){
+             System.out.println("Allowed to play the game");
+        }
+        else{
+            System.out.println("Not Allowed");
+        }
+    }
+2.import java.util.Scanner;
+public class Main{
+    public static void main(String[]args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter the Name:");
+         String name=input.nextLine();
+        System.out.println("Enter the Rollno:");
+       int rollno=input.nextInt();
+       System.out.println("Enter the height:");
+        int height=input.nextInt();
+        System.out.println("Enter the weight:");
+        int weight=input.nextInt();
+        
+        if((height>=170)&&(weight>=60)){
+             System.out.println("Eligible to become on NCC cadet");
+        }
+        else{
+            System.out.println("Not eligible");
+        }
+    }
+}
+3.
+import java.util.Scanner;
+public class positiveornot{
+    public static void main(String[]args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int number=input.nextInt();
+        if(number>0){
+           System.out.println("This number is Positive"); 
+        }
+        else{
+            System.out.println("This number is negative");
+        }
+    } 
+}
+4.import java.util.Scanner;
+public class evenornot{
+    public static void main(String[]args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int number=input.nextInt();
+        if(number%2==0){
+           System.out.println("This number is Even"); 
+        }
+        else{
+            System.out.println("This number is Odd");
+        }
+    } 
+}
+5import java.util.Scanner;
+public class vowelornot{
+    public static void main(String[]args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter the character:");
+        String l=input.nextLine();
+        if(l=="a" || l=="e" || l=="i" || l=="o" || l=="u"){
+           System.out.println("This characteris vowel "); 
+        }
+        else{
+            System.out.println("This character is consonant");
+        }
+    } 
+}
+6.import java.util.Scanner;
+class Marks{
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+         System.out.println("Enter the Mark:");
+         int mark=input.nextInt();
+         if(mark>=91&&mark<=100){
+             System.out.println("Grade:"+"A+");
+         }
+         else if(mark>=81&&mark<=90){
+             System.out.println("Grade:"+"A");
+         }
+         else if(mark>=71&&mark<=80){
+              System.out.println("Grade:"+"B+");
+         }
+         else if(mark>=61&&mark<=70){
+              System.out.println("Grade:"+"B");
+         }
+         else if(mark>=51&&mark<=60){
+              System.out.println("Grade:"+"C");
+         }
+         else if(mark>=41&&mark<=50){
+              System.out.println("Grade:"+"D");
+         }
+         else if(mark<=40){
+              System.out.println("Grade:"+"failed");
+         }
+    }
+}
